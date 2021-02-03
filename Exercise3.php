@@ -68,7 +68,7 @@ else {
 <div class="bckgrnd-tsk">
 <div>
 <?php echo "<h1>3. Write a program to grade students based on their total score for a subject. The grading scheme is: Excellent : >80 ;Great >70 & less than 80;Good >60 & less than 70; Pass >50 & less than 60 & Fail <50 </h1>";
-$grade = 49;
+$grade = 90;
 
 switch($grade) {
 case $grade >= 80:
@@ -169,16 +169,16 @@ for($a = $rows; $a >= 1; $a--)
 <div class="bckgrnd-tsk">
 <div>
 <?php echo "<h1>7. Create a GitHub repo and enable GitHub pages for the repo. Upload an HTML file of yours to the repo. You should include in your PHP code the link to the repo and your web page. </h1>";
-$rows = 8; 
-for($a = $rows; $a >= 1; $a--)
-{
-    for ($j=1; $j <= $a; $j++)
-{
-    echo "$j+";
-}
-}
+echo "https://github.com/olufunmilo20100/web21";
+echo "<br>";
 ?>
 </div>
 
+<div class="bckgrnd-tsk">
+<div>
+<?php echo "<h1>8. Give  1 or 0 point for the clarity of the task (User interface). </h1>";
+echo "";
+?>
+</div>
 
 </html>

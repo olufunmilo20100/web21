@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>HTML Assignment - Final</title>
+        <style>
+            body {
+                    font-family:'Times New Roman', Times, serif;
+                    background-image: url(http://staff.hamk.fi/~tsaksa/temp/background-image.jpg);  
+                }
+
+            .btn-primary {
+                     background-color: burlywood;
+                        }
+
+            header {
+                    text-align: center;
+                    font-size: 40px;
+                    height: 80px;
+                    width: 100%;
+                    }
+
+            main {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    text-align: center;
+                  }
+
+            footer {
+                    text-align: right;
+                    }
+
+/*
+!important means that this property has the highgest priority rule 
+.btn-primary {
+    background-color: black !important;
+}
+*/
+
+                @media only screen and (max-width: 1000px) {
+            body {
+                    background-color: rgb(125, 255, 3);
+                 }
+                 }
+
+
+                @media only screen and (max-width: 500px) {
+    body {
+      background-color: lightblue;
+    }
+
+    .btn-primary {
+        background-color: red;
+    }
+                    }
+        </style>
+</head>
+<body>
+    <header>
+        OLUFUNMILOLA ADENIYI
+    </header>
+<main>
+    <div>
+        <div class="container">
+            <div class="row"></div>
+                <div class="col-sm-11">
+                        <p> According to The Merriam-Webster Dictionary, nature is a creative and controlling force in the universe, the external world in its entirety
+                            or humankind’s original condition.
+                            The New Oxford American Dictionary describes nature as “the phenomena of the physical world collectively, including plants, animals, the landscape,
+                            and other features and products of the earth, as opposed to humans or human creations; the basic or inherent features of something, 
+                            especially when seen as characteristic of it; or “the innate or essential qualities or character of a person or animal.
+                            Nature itself is a <strong>Beauty.</strong> Nature can also be perceivedas as a thing of joy which last forever
+                        <p>
+                    <p>
+                        <article>
+                        <h3>Significance Of Nature</h3>
+                        <p> It’s always changing. Even though we all look at the same sky, no two sunsets or sunrises are ever the same.
+                            It can be moody, tempestuous, calm, and mesmerizing. Sometimes, all in the same day.
+                            It can bring us wonders of animals, and rainbows, make us dream a little, laugh, wish on a star, or hang on for dear life so that we don’t get tossed about.
+                            We can view the landscape from 37,000 feet and watch ice cream clouds and make funny shapes from them.
+                            We get to see nature’s paintbrush with each season.
+                        </p>
+                        </article>
+                    <p>
+                        <a href="https://www.nature.org/en-us/"><button type="button" class="btn btn-primary">Read more</button></a>
+                        </p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+
+            <aside>
+                <img src="https://img.etimg.com/thumb/width-640,height-480,imgsize-1016106,resizemode-1,msid-75729207/magazines/panache/earth-is-healing-global-air-quality-improved-this-year-due-to-coronavirus-lockdowns/nature1_gettyimages.jpg" alt="Nature" style="width: 550px; height: auto;">
+            </aside>
+        </div>
+</main>
+<div>
+    <footer>
+        My Final HTML Assignment
+    </footer>
+</div>
+</body>
+</html>

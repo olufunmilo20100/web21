@@ -177,7 +177,7 @@ echo "<br>";
 <div class="bckgrnd-tsk">
 <div>
 <?php echo "<h1>8. Give  1 or 0 point for the clarity of the task (User interface). </h1>";
-echo "";
+echo "1";
 ?>
 </div>
 

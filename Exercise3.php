@@ -169,7 +169,7 @@ for($a = $rows; $a >= 1; $a--)
 <div class="bckgrnd-tsk">
 <div>
 <?php echo "<h1>7. Create a GitHub repo and enable GitHub pages for the repo. Upload an HTML file of yours to the repo. You should include in your PHP code the link to the repo and your web page. </h1>";
-echo "https://github.com/olufunmilo20100/web21";
+echo "https://github.com/olufunmilo20100/web21/blob/main/Exercise3.php";
 echo "<br>";
 ?>
 </div>
